@@ -1,8 +1,18 @@
 @import "smart-grid";
-
+@import "config";
 @include reset();
 
 .debug {
-	display: none;
-	@include debug(rgba(0, 0, 0, 0.4), 0);
+    display: none;
+    @include debug(rgba(0, 0, 0, 0.4), 0);
 }
+.container{
+	@include wrapper();
+}
+body{
+  font-family: $font-stack;
+  font-size: $f_s;
+}
+
+@import "header";
+@import "nav";

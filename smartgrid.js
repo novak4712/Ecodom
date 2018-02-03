@@ -6,14 +6,26 @@ const settings = {
     columns: 12,
     offset: '30px',
     container: {
-        maxWidth: '940px',
-        fields: '15px'
+        maxWidth: '1280px',
+        fields: '30px'
     },
     breakPoints: {
+        lg: {
+            width: "1200px",
+            fields: "30px"
+        },
         md: {
-            width: "980px",
+            width: "992px",
             fields: "15px"
         },
+        sm: {
+            width: "768px",
+            fields: "15px"
+        },
+        xs: {
+            width: "576px",
+            fields: "15px"
+        }
     },
     oldSizeStyle: false,
     properties: [
