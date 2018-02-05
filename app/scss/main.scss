@@ -3,7 +3,7 @@
 @include reset();
 
 .debug {
-    display: none;
+    display: block;
     @include debug(rgba(0, 0, 0, 0.4), 0);
 }
 .container{
@@ -16,3 +16,6 @@ body{
 
 @import "header";
 @import "nav";
+
+@import "popup_toggle";
+@import "modal-form";

@@ -15,24 +15,56 @@
 </head>
 
 <body>
-<div class="debug">
-    <div>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+<!--<div class="debug">-->
+    <!--<div>-->
+        <!--<div>-->
+            <!--<div></div>-->
+            <!--<div></div>-->
+            <!--<div></div>-->
+            <!--<div></div>-->
+            <!--<div></div>-->
+            <!--<div></div>-->
+            <!--<div></div>-->
+            <!--<div></div>-->
+            <!--<div></div>-->
+            <!--<div></div>-->
+            <!--<div></div>-->
+            <!--<div></div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<section class="modal-form">
+        <div class="smart-form">
+            <div class="form-header">
+                <h4><i class="fa fa-comments"></i>Связаться</h4>
+            </div>
+            <form method="post" action="#" id="contact">
+                <div class="form-body">
+                    <div class="form-section">
+                        <label for="names" class="field-label">Введите ваше имя</label>
+                        <input type="text" name="names" id="names" placeholder="&#xf007; имя">
+
+                    </div>
+                    <div class="form-section">
+                        <label for="email" class="field-label">Введите ваш Email</label>
+                        <input type="email" name="email" id="email" placeholder="&#xf0e0; example@domain.com">
+                    </div>
+                    <div class="form-section">
+                        <label for="tel" class="field-label">Введите ваш телефон</label>
+                        <input type="tel" name="tel" id="tel" placeholder="&#xf098; номер телефона">
+
+                    </div>
+                    <div class="form-section">
+                        <label for="comment" class="field-label">Задать вопрос</label>
+                        <textarea class="comment" id="comment" name="comment" placeholder="&#xf086;"></textarea>
+                    </div>
+                </div>
+                <div class="form-footer">
+                    <input type="submit" name="modal_submit" value="Связаться" class="button-form">
+                </div>
+            </form>
         </div>
-    </div>
-</div>
+</section>
 <header>
     <nav class="menu">
         <div class="logo">
@@ -76,11 +108,17 @@
     </section>
 
 
-
-
-
 </header>
 
+
+<a href="#" id="popup__toggle">
+    <div class="circlephone" style="transform-origin: center;"></div>
+    <div class="circle-fill" style="transform-origin: center;"></div>
+    <div class="img-circle" style="transform-origin: center;">
+        <div class="img-circleblock" style="transform-origin: center;"></div>
+    </div>
+
+</a>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
