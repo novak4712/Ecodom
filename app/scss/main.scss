@@ -12,10 +12,13 @@
 body{
   font-family: $font-stack;
   font-size: $f_s;
+  height: 4000px;
 }
 
 @import "header";
 @import "nav";
+@import "profit";
+@import "slider";
 
 @import "popup_toggle";
 @import "modal-form";

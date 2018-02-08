@@ -2,7 +2,7 @@
   bottom: 25px;
   right: 10px;
   position: fixed;
-  z-index: 999;
+  z-index: 500;
   outline: none;
   @include lg(transform, scale(0.9));
   @include md(transform, scale(0.8));
@@ -79,7 +79,7 @@
       -webkit-box-sizing: content-box;
       width: 72px;
       height: 72px;
-      background-image: url(../img/callbacktelefon.png);
+      background-image: url(../img/messaging.png);
       background-position: center center;
       background-repeat: no-repeat;
       animation-name: tossing;
