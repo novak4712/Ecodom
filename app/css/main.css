@@ -491,6 +491,7 @@ body {
 
 .profit {
   padding: 50px 0;
+  background: url("../img/backkirpich.jpg") no-repeat fixed;
 }
 
 .profit .items {
@@ -534,6 +535,11 @@ body {
 
 .profit .items .item p {
   font-size: 1.4rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #FFFFFF;
+  padding: 5px;
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
 }
 
 .slider {
@@ -572,6 +578,117 @@ body {
 
 .flex-control-paging li a.flex-active {
   background: #F1370C;
+}
+
+.advantage {
+  padding: 50px 0;
+  background: url("../img/backkirpich.jpg") no-repeat fixed;
+}
+
+.advantage h3 {
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 50px;
+  color: #F1370C;
+}
+
+.advantage .items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.advantage .items .item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: -webkit-calc(50% - 30px);
+  width: calc(50% - 30px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  border: 3px solid #F1370C;
+  padding: 10px;
+  margin-bottom: 25px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+}
+
+.advantage .items .item img {
+  width: 90px;
+  height: 90px;
+}
+
+.advantage .items .item .item_header {
+  -webkit-flex-basis: 70%;
+      -ms-flex-preferred-size: 70%;
+          flex-basis: 70%;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.advantage .items .item .item_header p {
+  width: 100%;
+}
+
+.advantage .items .item .item_header a {
+  color: #F1370C;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.advantage .items .item .item_text {
+  width: 100%;
+  display: none;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.advantage .items .item .item_text p {
+  line-height: 20px;
+}
+
+.advantage .items .item .item_text h5 {
+  font-size: 1rem;
+  margin: 5px;
+  text-align: center;
 }
 
 #popup__toggle {
@@ -1052,6 +1169,18 @@ body {
     font-size: 1.2rem;
   }
 
+  .advantage h3 {
+    font-size: 2rem;
+  }
+
+  .advantage .items .item .item_header {
+    font-size: 1rem;
+  }
+
+  .advantage .items .item .item_header a {
+    font-size: 0.8rem;
+  }
+
   #popup__toggle {
     -webkit-transform: scale(0.8);
         -ms-transform: scale(0.8);
@@ -1115,6 +1244,10 @@ body {
     font-size: 1rem;
   }
 
+  .advantage h3 {
+    font-size: 1.6rem;
+  }
+
   #popup__toggle {
     -webkit-transform: scale(0.7);
         -ms-transform: scale(0.7);
@@ -1162,6 +1295,11 @@ body {
 
   .flex-caption {
     font-size: 0.7rem;
+  }
+
+  .advantage .items .item {
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
   }
 
   #popup__toggle {
