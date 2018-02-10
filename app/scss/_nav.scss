@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background: rgba(0, 0, 0, 0.6);
+  background:url("../img/rk-security-sytems-background-1.jpg");
   border-bottom: 2px solid $silver;
   z-index: 1;
   .logo {
@@ -31,7 +31,7 @@
       margin-top: 93px;
       margin-right: 0;
       padding-bottom: 5px;
-      background-color: rgba(0, 0, 0, 1);
+      background:url("../img/rk-security-sytems-background-1.jpg");
       z-index: 1000;
       overflow: auto;
     }

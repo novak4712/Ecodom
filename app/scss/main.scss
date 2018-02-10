@@ -12,7 +12,9 @@
 body{
   font-family: $font-stack;
   font-size: $f_s;
-  height: 4000px;
+}
+main{
+  background: url("../img/backkirpich.jpg") no-repeat fixed;
 }
 
 @import "header";
@@ -21,5 +23,7 @@ body{
 @import "slider";
 @import "advantage";
 
+@import "footer";
 @import "popup_toggle";
 @import "modal-form";
+@import "cart";
