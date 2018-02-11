@@ -21,6 +21,16 @@ $(document).ready(function () {
     });
 
 
+    $('.cart_toggle').click(function () {
+        var popup_id = $('#' + $(this).attr("rel"));
+        $(popup_id).show();
+        $('.overlay_form').show();
+    });
+    $('.overlay_form').click(function () {
+        $('.overlay_form, .modal-form').hide();
+    });
+
+
     $('.flexslider').flexslider({
         animation: "slide"
     });

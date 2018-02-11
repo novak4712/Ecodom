@@ -1109,6 +1109,7 @@ footer .cooperation {
   line-height: 20px;
   border: none;
   outline: none;
+  width: 100%;
 }
 
 .modal-form .smart-form .form-body .form-section .prepend-icon textarea {
