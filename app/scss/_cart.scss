@@ -16,6 +16,10 @@
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
+      &:hover {
+        transform: scale(1.025);
+        transition: transform .3s;
+      }
       .cart_header {
         width: 100%;
       }
@@ -29,21 +33,21 @@
           text-align: left;
           padding: 20px;
           font-size: 1rem;
-          h6{
+          h6 {
             margin-bottom: 20px;
             text-align: center;
             color: $main-red;
             font-size: 1.2rem;
           }
         }
-        .cart_price{
+        .cart_price {
           flex-basis: 30%;
           font-size: 1rem;
-          p:first-child{
+          p:first-child {
             font-size: 1.5rem;
             color: $main-red;
           }
-          button{
+          button {
             background: $main-red;
             width: 80%;
             color: $white;

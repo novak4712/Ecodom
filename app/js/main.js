@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 
 
-   var showForm = function showForm () {
+   var showForm = function () {
         var popup_id = $('#' + $(this).attr("rel"));
         $(popup_id).show();
         $('.overlay_form').show();
@@ -30,7 +30,6 @@ $(document).ready(function () {
     $('.flexslider').flexslider({
         animation: "slide"
     });
-
 
     $(".but1").click(function () {
         var hBlock = $(".text1");
@@ -152,7 +151,6 @@ $(document).ready(function () {
             $(".img_but5").attr("src", srcW);
         }
     });
-
 
 });
 

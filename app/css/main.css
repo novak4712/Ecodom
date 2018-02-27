@@ -704,6 +704,20 @@ main {
   text-align: center;
 }
 
+.gallery {
+  width: 100%;
+  background: #FFFFFF;
+  padding-top: 100px;
+}
+
+svg.polaroid rect {
+  stroke: #F1370C;
+}
+
+#photostack-1 nav span.current {
+  background: #F1370C;
+}
+
 footer {
   background: url("../img/rk-security-sytems-background-1.jpg");
   display: -webkit-box;
@@ -1216,6 +1230,17 @@ footer .cooperation {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
+}
+
+.cart .items .item:hover {
+  -webkit-transform: scale(1.025);
+      -ms-transform: scale(1.025);
+          transform: scale(1.025);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  -o-transition: transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
 }
 
 .cart .items .item .cart_header {
